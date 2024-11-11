@@ -1,6 +1,7 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
   "rules": {
-    "@typescript-eslint/no-require-imports":"error"
+    "@typescript-eslint/no-require-imports": "error",
+    "@next/next/no-img-element": "off"
   }
 }
