@@ -38,3 +38,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+.qodo
+
+# But allow tracking of the example env file
+!.env.example
